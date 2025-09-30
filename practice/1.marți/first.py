@@ -18,24 +18,6 @@ name = input("Introduceti numele: ")
 # aici salutăm utilizatorul
 print("Salut, " + name)
 
-
-# Exercițiu:
-# setăm of variabilă `tod` ("time of day")
-# dacă tod == "morning": salutul va fi:
-#    "Bună dimineața, {nume}"
-# dacă tod == "noon": salutul va fi:
-#    "Bună ziua, {nume}"
-# dacă tod == "evening": salutul va fi:
-#    "Bună seara, {nume}"
-# dacă tod == "night": salutul va fi:
-#    "Noapte bună, {nume}"
-
-tod = "acum"
-
-if tod == "acum":
-    print("nu e acum, e atunci")
-
-
 # True / False
 condition1 = False
 condition2 = False

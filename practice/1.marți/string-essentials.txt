@@ -1,0 +1,25 @@
+# string methods:
+
+s = "un string"
+
+# fundamentale:
+s.split ---> o listă
+s.join  ---> un iterabil se transormă în string, cu separatorul `s`
+
+
+# funcționale
+s.strip / s.lstrip / s.rstrip
+s.zfill
+s.ljust / s.rjust
+s.isalnum
+
+s.replace
+
+
+# useful
+s.lower / s.upper / s.casefold
+
+s.startswith / s.endswith
+
+s.count
+s.index / s.rindex
