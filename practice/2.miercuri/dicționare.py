@@ -25,16 +25,26 @@ for key, value in person.items():
 # 'occupation': 'sysadmin'
 # 'hobbies': ["biking", "guitar"]
 
+person = {
+    'name': 'Andrew',
+    'age': 32,
+    'occupation': 'sysadmin',
+    'hobbies': ["biking", "guitar"],
+}
+
 # apoi:
 # - printați valoarea pentru cheia "age"
+print(person['age'])
 
 # - schimbați-i vârsta la 33
+person['age'] = 33
 
 # - adăugați o cheie nouă, "friends",
 #   cu valoarea ["Jane", "John", "Jim"]
+person['friends'] = ["Jane", "John", "Jim"]
 
 # - adăugați "knitting" la lista de hobby-uri
-
+person['friends'].append("knitting")
 
 
 # opțional:
