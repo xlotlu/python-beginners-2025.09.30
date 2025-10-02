@@ -1,0 +1,17 @@
+fundamentale: os.path, sys, datetime.date, datetime.datetime, csv, json, math, random, time, xml, yaml
+
+secundare: pathlib, itertools, collections, logging, pdb, shutil, sqlite3, subprocess, tarfile, zipfile
+
+instalate extern: ipdb, psutil, requests
+
+
+utilitare: ipython, jupyter
+
+instalare cu (în shell):
+$ pip install ipython
+$ pip install jupyter
+
+
+ca să rulați jupyter notebook:
+$ cd folderul/sursă
+$ jupyter notebook
